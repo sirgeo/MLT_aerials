@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>City of Mountlake Terrace Aerials 1998-2021</title>
+
+<script language="JavaScript1.1">
+
+function changeimage(towhat,url){
+if (document.images){
+document.images.targetimage.src=towhat.src
+gotolink=url
+}
+}
+
+
+function changeimage2(towhat,url){
+if (document.images){
+document.images.targetimage2.src=towhat.src
+gotolink=url
+}
+}
+
+
+function warp(){
+window.location=gotolink
+}
+
+function warp2(){
+window.location=gotolink
+}
+
+
+function warp3(){
+window.location=gotolink
+}
+
+
+<!-- RadioButtons -->
+<!-- Begin
+function Check(x,y) {
+for(i=1;i<=4;i++) {
+z = "option" + i ;
+document.all[z].src = "Off_button.jpg" ;
+}
+document.all[x].src = "On_button.jpg"
+}
+//  End -->
+</script>
+
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#004639" alink="#004639" vlink="#004639">
+
+<table align="center" width="728">
+   <tr>      
+      <td align="center" valign="top">
+	 <h2>CITY OF MOUNTLAKE TERRACE AERIALS 1998-2021 | Mouseover the purple bar below image to scroll through years.</H2>
+                          </td>
+   </tr>
+
+
+   <tr>
+      <td align="center" style="vertical-align:top">
+	                <img src="https://www.cityofmlt.com/Images/FormCenter/Items/MLT_cmyk_logo_Cropped_300DPI.jpg" id="targetimage" border="0" 
+      </td>
+   </tr>
+
+   <tr>
+   <a href="https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/" style="font-size:15px; color:#FFFFFF">(go to King County source data)</a>
+      <td align="center" style="vertical-align:top">
+         <a href="javascript:warp2()"> 
+            <img src="https://i.imgur.com/TCDJI16.jpg" name="targetimage2" usemap="#map" border="0" title="forecast valid time intervals">
+         </a> 
+         <map name="map"> 
+          	<area shape="rect" coords="0,	 0, 200, 95"  onmouseover="changeimage(myimages[0],this.href)">
+	<area shape="rect" coords="201,  0, 400, 95"  onmouseover="changeimage(myimages[1],this.href)">
+	<area shape="rect" coords="401,  0, 600, 95"  onmouseover="changeimage(myimages[2],this.href)">
+	<area shape="rect" coords="601,  0, 800, 95"  onmouseover="changeimage(myimages[3],this.href)">
+	<area shape="rect" coords="801,  0, 1000, 95"  onmouseover="changeimage(myimages[4],this.href)">
+	<area shape="rect" coords="1001,  0, 1200, 95"  onmouseover="changeimage(myimages[5],this.href)">
+	<area shape="rect" coords="1201,  0, 1400, 95"  onmouseover="changeimage(myimages[6],this.href)">
+	<area shape="rect" coords="1401,  0, 1600, 95"  onmouseover="changeimage(myimages[7],this.href)">
+         </map>
+      </td>
+   </tr>
+</table>
+
+<script language="JavaScript1.1">
+var myimages=new Array()
+var gotolink="#"
+
+function preloadimages(){
+for (i=0;i<preloadimages.arguments.length;i++){ myimages[i]=new Image(); myimages[i].src=preloadimages.arguments[i]}}
+preloadimages("https://i.imgur.com/Ch0YC5i.png", 
+              "https://i.imgur.com/2KSHMMT.png", 
+              "https://i.imgur.com/UF8pRDt.png", 
+              "https://i.imgur.com/QBnMhrZ.png", 
+              "https://i.imgur.com/Kbe668H.png", 
+              "https://i.imgur.com/ASbmPWk.png", 
+              "https://i.imgur.com/RJ8FftQ.png", 
+             )
+</script>
+
